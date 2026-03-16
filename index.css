@@ -1,0 +1,133 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e3e3e3;
+}
+
+.top-bar {
+  margin: 0;
+  top: 0;
+  padding: 2px 20px;
+  color: #383838;
+  display: flex;
+}
+
+.pages {
+  margin-top: 50px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-1-image-overlay,
+.page-1-backdrop-image {
+  object-fit: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: inherit;
+  top: 0;
+  bottom: 0;
+}
+
+.page-1-backdrop-image {
+  z-index: -50;
+}
+
+.page-1-image-overlay {
+  z-index: -10;
+}
+
+.intro-section {
+  color: #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+
+.intro-head {
+  font-size: 80px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  z-index: 1000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.intro-body {
+  font-size: 300px;
+  font-weight: bold;
+  margin-top: 20px;
+  z-index: -25;
+  margin-bottom: 80px;
+  text-decoration: underline;
+}
+
+.page-2 {
+  height: 700px;
+  background: #e3e3e3;
+  color: #323232;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.page-2 .content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  max-width: 900px;
+}
+
+.page-2 .right-section,
+.page-2,
+.left-section {
+  flex: 1;
+}
+
+.page-2 .right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.page-2 h3 {
+  margin-bottom: 15px;
+}
+
+.page-2 h5 {
+  margin-bottom: 5px;
+}
+
+.page-3 {
+  color: #e3e3ee;
+}
+
+.earth-video {
+  max-width: 750px;
+  border: solid white 1px;
+  border-radius: 5px;
+}
+
+Marquee {
+  background-color: #e3e3e3;
+  font-size: 21px;
+}

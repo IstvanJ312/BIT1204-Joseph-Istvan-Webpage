@@ -3,28 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
     <title>Joseph Istvan</title>
   </head>
   <body>
     <main class="pages">
       <div class="page-1">
         <img
-          src="earth-ios-11-stock-black-background-ipad-2706x2706-771.jpg"
+          src="wp4729457-earth-4k-wallpapers.jpg"
           alt=""
           class="page-1-backdrop-image"
         />
         <img
           class="page-1-image-overlay"
-          src="earth-ios-11-stock-black-background-ipad-2706x2706-771bgrem.png"
+          src="wp4729457-earth-4k-wallpapersbgrem.png"
         />
         <div class="intro-section">
+          <div class="intro-body">EARTH</div>
           <div class="intro-head">
-            This is little flotating ball of rock, dirt and water goes by many
-            names; Terra, Sol-3, Gaia, Tellus, but all we can agree on is that
-            it is home; I'm talking about our beautiful
+            Our Beautiful Home
           </div>
-          <div class="intro-body">Earth</div>
+          
         </div>
+
       </div>
 
       <div class="page-2">
@@ -46,7 +47,7 @@
             
           </div>
           <div class="left-section">
-            <div class="part-1">
+            <div class="facts">
               <h3>Fun facts about earth</h3>
               <ul>
                 <li>
@@ -69,121 +70,14 @@
           </div>
         </div>
       </div>
+
+      <div class="page-3"> 
+        <h2>Earth's evolution in 10 minutes</h2>
+        <video class="earth-video" src="Earth's Evolution in 10 Minutes (720p_30fps_AV1-128kbit_AAC-English).mp4" controls="true"></video>
+        </div>
+
+      <marquee behavior="" direction="">Made by Joseph Istvan, 2025/U/MMU/BCS/00065</marquee>
     </main>
   </body>
-  <style>
-    body {
-      font-family:
-        "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background-color: #e3e3e3;
-    }
-
-    .top-bar {
-      margin: 0;
-      top: 0;
-      padding: 2px 20px;
-      color: #383838;
-      display: flex;
-    }
-
-    .pages {
-      margin-top: 50px;
-      left: 0;
-      right: 0;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .page-1 {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .page-1-image-overlay,
-    .page-1-backdrop-image {
-      object-fit: contain;
-      position: fixed;
-      width: 100vw;
-      flex-shrink: inherit;
-      top: 0;
-      bottom: 0;
-    }
-
-    .page-1-backdrop-image {
-      z-index: -50;
-    }
-
-    .page-1-image-overlay {
-      z-index: -10;
-    }
-
-    .intro-section {
-      color: #e3e3e3;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 20px;
-      position: relative;
-      z-index: -25;
-    }
-
-    .intro-head {
-      font-size: 110px;
-      display: flex;
-      justify-content: end;
-      align-items: end;
-    }
-
-    .intro-body {
-      font-size: 300px;
-      z-index: 1000;
-      font-weight: bold;
-      margin-top: 20px;
-      margin-bottom: 80px;
-      text-decoration: underline;
-    }
-
-    .page-2 {
-      height: 700px;
-      background: #e3e3e3;
-      color: #323232;
-      font-size: 20px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
-
-    .page-2 .content{
-      display: flex;
-      flex-direction: row;
-      column-gap: 20px;
-      max-width: 900px;
-    }
-
-    .page-2 .right-section,
-    .page-2, .left-section{
-      flex: 1;
-    }
-
-    .page-2 h3{
-      margin-top: 25px;
-      margin-bottom: 15px;
-    }
-
-    .page-2 h5{
-      margin-bottom: 5px;
-    }
-
-    
-  </style>
+  
 </html>

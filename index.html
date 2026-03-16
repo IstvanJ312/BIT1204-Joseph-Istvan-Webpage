@@ -30,29 +30,40 @@
       <div class="page-2">
         <div class="content">
           <div class="right-section">
-            <div class="title">About</div>
+            <h1 class="title">About</h1>
             <p class="paragraph-1">
-              Weighing in at an impressive 5.97 septillion metric tons , and
+              Weighing in at an impressive 5.97  <u><b>septillion</b></u> metric tons , and
               having a volume of nearly 1 trillion cubic kilometers,, this
-              behemoth is by n meant a small planet, yet it pales in comparison
+              behemoth is by no means a small planet, yet it pales in comparison
               to its some other planets in our solar system, such as Jupiter,
               and mars.
             </p>
+            <p class="paragraph-2">Near the surface, Earth has an atmosphere that consists of 78% nitrogen, 21% oxygen, and 1% other gases such as argon, carbon dioxide, and neon. The atmosphere affects Earth's long-term climate and short-term local weather and shields us from much of the harmful radiation coming from the Sun. It also protects us from meteoroids, most of which burn up in the atmosphere, seen as meteors in the night sky, before they can strike the surface as meteorites.</p>
             <p class="paragraph-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-              neque ipsam. Eius, in laborum ratione molestias facere saepe
-              mollitia animi, accusantium nihil porro adipisci fugiat iusto
-              atque esse maxime suscipit.
+              <h3 class="age-title">Opinions</h3>
+              Some people think our home is billions of years old, some think it's been around for millions of years, and others think it's just been a few thousand. There are folks who think it's flat, and those who think it's round. There are those who are worried it's going to die soon, and those who couldn't care less.
             </p>
+            
           </div>
           <div class="left-section">
             <div class="part-1">
-              <h3>My interests and hobbies</h3>
+              <h3>Fun facts about earth</h3>
               <ul>
-                <li>Coding</li>
-                <li>Playing basketball</li>
-                <li>Learning about Space</li>
-                <li>Watching movies</li>
+                <li>
+                  <h5>Orbit and rotation</h5>
+                  As Earth orbits the Sun, it completes one rotation every 23.9 hours. It takes 365.25 days to complete one trip around the Sun. That extra quarter of a day presents a challenge to our calendar system, which counts one year as 365 days. To keep our yearly calendars consistent with our orbit around the Sun, every four years we add one day. That day is called a leap day, and the year it's added to is called a leap year.
+                </li>
+                <li>
+                  <h5>Moons</h5>
+                  Earth is the only planet in our solar system with only one moon.
+                </li>
+                <li>
+                  <h5>Structure</h5>
+                  Earth is composed of four main layers, starting with an inner core at the planet's center, enveloped by the outer core, mantle, and crust.Earth is composed of four main layers, starting with an inner core at the planet's center, enveloped by the outer core, mantle, and crust</li>
+                <li>
+                  <h5>Distance from the sun</h5>
+                   It takes about eight minutes for light from the Sun to reach our planet. Meaning if the sun turned off one day, we wouldn't know it until eight minutes later!
+                  </li>
               </ul>
             </div>
           </div>
@@ -145,8 +156,34 @@
     .page-2 {
       height: 700px;
       background: #e3e3e3;
-      color: #014195;
+      color: #323232;
+      font-size: 20px;
       width: 100%;
+      display: flex;
+      justify-content: center;
     }
+
+    .page-2 .content{
+      display: flex;
+      flex-direction: row;
+      column-gap: 20px;
+      max-width: 900px;
+    }
+
+    .page-2 .right-section,
+    .page-2, .left-section{
+      flex: 1;
+    }
+
+    .page-2 h3{
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+
+    .page-2 h5{
+      margin-bottom: 5px;
+    }
+
+    
   </style>
 </html>
